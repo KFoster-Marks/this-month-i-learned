@@ -6,7 +6,7 @@
 
 > The example I coded in order to learn about and practice this concept is not the most authentic, but I did have some fun with it.
 >
-> Check it out here: [Python's Magic Methods](march2019/magic-methods)
+> Check it out here: [Adding a Little on Top for the Favorite Kid's Weekly Allowance](march2019/magic-methods)
 
 #### How to Create a Gaussian Distribution with Python
 
