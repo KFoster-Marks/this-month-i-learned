@@ -2,7 +2,9 @@
 
 #### Python's Magic Methods
 
->
+> Magic methods are special methods (identified by a double underscore prefix and suffix, e.g. `__add__`) whose default behavior can be overridden in order to define special behavior when used with an object on whose Class they are defined.
+
+> The example I coded in order to learn about and practice this concept is not the most authentic, but I did have some fun with it.
 >
 > Check it out here: [Python's Magic Methods](march2019/magic-methods)
 
