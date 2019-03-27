@@ -1,5 +1,13 @@
 ## March 2019
 
+#### Python `Time` Module's `sleep()` and `strftime()`
+
+> `sleep()` allows you to pause a program's execution. This is pretty cool, and I'm curious to learn about real use cases.
+
+> `strftime()` provides an easy-to-control way of formatting time strings. Pass in formatting specifications as first argument, and the `struct_time` tuple generated through methods like `localtime()` as second.
+
+> Check it out here: [sleep() & strftime() in Python Time module](march2019/python-timing)
+
 #### Python's Magic Methods
 
 > Magic methods are special methods (identified by a double underscore prefix and suffix, e.g. `__add__`) whose default behavior can be overridden in order to define special behavior when used with an object on whose Class they are defined.
