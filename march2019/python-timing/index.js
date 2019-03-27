@@ -1,4 +1,6 @@
-from time import time, sleep
+from time import localtime, sleep, strftime, time
+
+print('Current time: {}'.format(strftime("%a, %d %b %Y %H:%M", localtime())))
 
 seconds = int(input('How many seconds would you like to wait? '))
 
