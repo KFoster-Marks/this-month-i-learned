@@ -1,3 +1,10 @@
+-- TODOs:
+-- Create DB
+-- Create schema
+-- Create table
+-- Seed table
+
+-- Create MV
 DROP materialized view IF EXISTS search_account;
 CREATE materialized view search_account AS (
     SELECT 
@@ -10,5 +17,6 @@ CREATE materialized view search_account AS (
     ORDER BY (COALESCE(acct.name, ''::character varying));
 );
 
+-- Create GIN index
 DROP index IF EXISTS org.accounts_idx_name;
 CREATE index search_account_idx_name ON org.accounts USING gin(account_name extensions.gin_trgm_ops);
