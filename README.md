@@ -1,5 +1,13 @@
 ## March 2019
 
+#### Full Text Search with PostgreSQL `pg_trgm` extension
+
+> The `pg_trgm` extension provides functions and index operators that allow for fast text searches.
+
+> The example I created is a Materialized View definition that includes the necessary components to achieve a full-text search.
+
+> Check it out here: [full text search](march2019/pg_trgm)
+
 #### Python `Time` Module's `sleep()` and `strftime()`
 
 > `sleep()` allows you to pause a program's execution. This is pretty cool, and I'm curious to learn about real use cases.
