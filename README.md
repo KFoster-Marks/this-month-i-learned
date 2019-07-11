@@ -1,3 +1,11 @@
+## July 2019
+
+#### Node.js Worker Threads
+
+## April - June 2019
+
+> I sold and bought a house. No coding fun for me :(
+
 ## March 2019
 
 #### Full Text Search with PostgreSQL `pg_trgm` extension
